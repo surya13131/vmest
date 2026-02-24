@@ -1,10 +1,7 @@
 {
-  "compilerOptions": {
-    "composite": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "types": ["node"], // Remove @tailwindcss/vite from here
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["vite.config.ts", "src/vite-env.d.ts"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
