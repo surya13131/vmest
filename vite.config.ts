@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  // Adding 'as any' bypasses the type mismatch in the plugins array
+  plugins: [react(), tailwindcss() as any],
 })
