@@ -1,4 +1,3 @@
-import React from 'react';
 import i1 from '../assets/i1.png'; 
 import i2 from '../assets/i2.png';
 import i3 from '../assets/i3.png';
