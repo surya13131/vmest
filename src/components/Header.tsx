@@ -42,9 +42,12 @@ const Header: React.FC = () => {
 
         {/* Desktop Button */}
         <div className="flex items-center gap-4">
-          <button className="hidden md:block text-[15px] font-bold bg-[#5DBD09] text-white px-8 py-3.5 rounded-full hover:bg-[#4ea308] transition-all shadow-md active:scale-95">
-             Contact Us
-          </button>
+        <button 
+  onClick={() => document.getElementById('footer-contact')?.scrollIntoView({ behavior: 'smooth' })}
+  className="hidden md:block text-[15px] font-bold bg-[#5DBD09] text-white px-8 py-3.5 rounded-full hover:bg-[#4ea308] transition-all shadow-md active:scale-95"
+>
+  Contact Us
+</button>
 
           {/* Hamburger Menu Icon */}
           <button 

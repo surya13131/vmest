@@ -107,74 +107,60 @@ const Aldmognpaegthree = () => {
       </section>
 
       {/* SECTION 3: Footer */}
-<footer className="relative w-full py-12 md:py-16 px-6 md:px-12 lg:px-16 overflow-hidden bg-transparent">
-        <div className="relative z-10 max-w-[1800px] mx-auto">
-          <div className="flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-8">
-            
-            {/* Left Section: Heading and Info Grid */}
-            <div className="flex-1 w-full">
-              <h4 className="text-3xl md:text-[40px] font-[700] text-[#1A1A1A] mb-8 leading-tight">
-                Let's Build a Sustainable <br className="hidden md:block" />
-                Partnership
-              </h4>
-              
-              <div className="flex flex-col sm:flex-row flex-wrap items-start gap-8 md:gap-12">
-                <div className="max-w-[200px]">
-                  <p className="text-sm md:text-[15px] text-[#545955] leading-tight">
-                    Quality assured in affordability, delivered across globe
-                  </p>
-                </div>
+<footer  id="footer-contact" className="relative w-full overflow-hidden bg-transparent pt-10">
+  {/* --- MAIN FOOTER INFO --- */}
+  <div className="relative z-10 max-w-[1600px] mx-auto px-6 md:px-12 lg:px-8 pb-10">
+    {/* Changed items-start to items-end to align text and image at the bottom */}
+    <div className="flex flex-col lg:flex-row justify-between items-end gap-12">
+      
+      {/* Text Content Container */}
+      <div className="flex-1 w-full pb-6"> 
+        <h4 className="text-[32px] md:text-[40px] font-bold text-[#1A1A1A] mb-10 leading-[1.2]">
+          Let's Build a Sustainable <br className="hidden md:block" />
+          Partnership
+        </h4>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 md:gap-14">
+          <div className="max-w-[200px]">
+            <p className="text-[14px] text-[#545955] leading-[1.4] font-medium">
+              Quality assured in affordability, delivered across globe
+            </p>
+          </div>
 
-                <div>
-                  <h5 className="text-base md:text-[17px] font-bold text-[#1A1A1A] mb-3">Address</h5>
-                  <p className="text-sm md:text-[15px] text-[#545955] leading-relaxed">
-                    234F Dharapuram street,<br />
-                    Rajapalayam, Tamil Nadu -<br />
-                    626 117
-                  </p>
-                </div>
+          <div>
+            <h5 className="text-[17px] font-bold text-[#1A1A1A] mb-4">Address</h5>
+            <p className="text-[14px] text-[#545955] leading-[1.6] font-medium">
+              234F Dharapuram street,<br />
+              Rajapalayam, Tamil Nadu -<br />
+              626 117
+            </p>
+          </div>
 
-                <div>
-                  <h5 className="text-base md:text-[17px] font-bold text-[#1A1A1A] mb-3">Contact</h5>
-                  <div className="text-sm md:text-[15px] text-[#545955] space-y-1 flex flex-col">
-                    <a 
-                      href="tel:+919344461082" 
-                      className="hover:underline hover:text-[#1A1A1A] transition-colors"
-                    >
-                      +91 9344461082
-                    </a>
-                    <a 
-                      href="mailto:wenestproducts@gmail.com" 
-                      className="break-all hover:underline hover:text-[#1A1A1A] transition-colors"
-                    >
-                      wenestproducts@gmail.com
-                    </a>
-                    <a 
-                   
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="hover:underline hover:text-[#1A1A1A] transition-colors"
-                    >
-                      www.wenestproducts.com
-                    </a>
-                  </div>
-                </div>
-              </div>
+          <div id='contact'>
+            <h5 className="text-[17px] font-bold text-[#1A1A1A] mb-4">Contact</h5>
+            <div className="text-[14px] text-[#545955] space-y-2 flex flex-col font-medium">
+              <a href="tel:+919344461082" className="hover:text-[#5DBD09] transition-colors">+91 9344461082</a>
+              <a href="mailto:wenestproducts@gmail.com" className="break-all hover:text-[#5DBD09] transition-colors">wenestproducts@gmail.com</a>
+              <a href="https://www.wenestproducts.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#5DBD09] transition-colors">www.wenestproducts.com</a>
             </div>
+          </div>
+        </div>
+      </div>
 
-            {/* Right Section: Large Decorative Logo */}
-            <div className="w-full lg:w-auto flex justify-center lg:justify-end flex-shrink-0 mt-4 lg:mt-0">
+            <div className="w-full lg:w-auto flex justify-center lg:justify-end shrink-0">
               <img 
                 src={logo} 
                 alt="WeNest Large Logo" 
-                className="w-[250px] sm:w-[300px] md:w-[450px] object-contain opacity-80"
+                className="w-[280px] md:w-[450px] lg:w-[580px] object-contain"
               />
             </div>
           </div>
+        </div>
 
-          {/* Copyright Bar */}
-          <div className="mt-12 md:mt-16 pt-4 border-t border-black/10 text-center">
-            <p className="text-xs md:text-[15px] text-[#545955]">
+        {/* --- SMALL COMPACT COPYRIGHT BAR --- */}
+        <div className="w-full bg-[#D8D2C6] py-3 md:py-4">
+          <div className="max-w-[1600px] mx-auto px-6 text-center">
+            <p className="text-[12px] md:text-[14px] font-medium text-[#2D312E] opacity-70">
               © 2025 wenestproducts All rights reserved.
             </p>
           </div>

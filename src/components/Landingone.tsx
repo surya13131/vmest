@@ -52,9 +52,17 @@ const LandingPage: React.FC = () => {
 
             {/* Added Contact Us Button */}
             <div className="pt-4">
-              <button className="bg-[#6CB33E] hover:bg-[#5a9a32] text-white px-8 py-3 rounded-full font-semibold transition-all shadow-sm active:scale-95">
-                Contact Us
-              </button>
+              <button 
+  onClick={() => {
+    document.getElementById('footer-contact')?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start' 
+    });
+  }}
+  className="bg-[#6CB33E] hover:bg-[#5a9a32] text-white px-8 py-3 rounded-full font-semibold transition-all shadow-sm active:scale-95"
+>
+  Contact Us
+</button>
             </div>
           </div>
 

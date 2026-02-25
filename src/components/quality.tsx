@@ -81,8 +81,8 @@ const Quality = () => {
         </div>
 
         {/* Bottom CTA Area */}
-        <div className="w-full pt-12 md:pt-16 border-t border-black/5">
-          <h3 className="text-xl md:text-2xl font-extrabold text-[#000000] mb-4 md:mb-6">Ready to Start?</h3>
+        <div className="w-full pt-12 md:pt-16">
+          <h3 className="text-xl md:text-5xl font-extrabold text-[#000000] mb-4 md:mb-6">Ready to Start?</h3>
           <p className="text-base md:text-lg text-[#000000] leading-relaxed max-w-3xl mx-auto px-4">
             Whether you're launching a new eco-friendly product line or seeking reliable 
             cotton bag suppliers, WeNest Products offers the quality, flexibility, and 
