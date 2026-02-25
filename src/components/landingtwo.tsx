@@ -48,7 +48,7 @@ const LandingTwo: React.FC = () => {
           <img 
             src={shows} 
             alt="" 
-            className="w-full h-full object-cover opacity-30" 
+            className="w-full h-full object-cover opacity-100" 
           />
         </div>
 
@@ -120,7 +120,7 @@ const LandingTwo: React.FC = () => {
           <img 
             src={shows} 
             alt="" 
-            className="w-full h-full object-cover opacity-40" 
+            className="w-full h-full object-cover opacity-100" 
           />
         </div>
         <div className="relative z-10">

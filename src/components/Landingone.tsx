@@ -85,7 +85,7 @@ const LandingPage: React.FC = () => {
             <img 
               src={shows} 
               alt="" 
-              className="w-full h-full object-cover opacity-90 mix-blend-multiply" 
+              className="w-full h-full object-cover opacity-100 mix-blend-multiply" 
             />
           </div>
 

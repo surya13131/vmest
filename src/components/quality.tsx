@@ -36,7 +36,7 @@ const Quality = () => {
         <img 
           src={shows} 
           alt="" 
-          className="w-full h-full min-h-full object-cover opacity-60 md:opacity-90" 
+          className="w-full h-full min-h-full object-cover opacity-100 md:opacity-90" 
         />
       </div>
 
