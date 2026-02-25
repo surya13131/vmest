@@ -107,7 +107,7 @@ const Aldmognpaegthree = () => {
       </section>
 
       {/* SECTION 3: Footer */}
-      <footer className="relative w-full py-12 md:py-16 px-6 md:px-12 lg:px-16 overflow-hidden bg-transparent">
+<footer className="relative w-full py-12 md:py-16 px-6 md:px-12 lg:px-16 overflow-hidden bg-transparent">
         <div className="relative z-10 max-w-[1800px] mx-auto">
           <div className="flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-8">
             
@@ -136,10 +136,27 @@ const Aldmognpaegthree = () => {
 
                 <div>
                   <h5 className="text-base md:text-[17px] font-bold text-[#1A1A1A] mb-3">Contact</h5>
-                  <div className="text-sm md:text-[15px] text-[#545955] space-y-1">
-                    <p>+91 9344461082</p>
-                    <p className="break-all">wenestproducts@gmail.com</p>
-                    <p>www.wenestproducts.com</p>
+                  <div className="text-sm md:text-[15px] text-[#545955] space-y-1 flex flex-col">
+                    <a 
+                      href="tel:+919344461082" 
+                      className="hover:underline hover:text-[#1A1A1A] transition-colors"
+                    >
+                      +91 9344461082
+                    </a>
+                    <a 
+                      href="mailto:wenestproducts@gmail.com" 
+                      className="break-all hover:underline hover:text-[#1A1A1A] transition-colors"
+                    >
+                      wenestproducts@gmail.com
+                    </a>
+                    <a 
+                   
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="hover:underline hover:text-[#1A1A1A] transition-colors"
+                    >
+                      www.wenestproducts.com
+                    </a>
                   </div>
                 </div>
               </div>
