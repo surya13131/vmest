@@ -58,7 +58,7 @@ const LandingTwo: React.FC = () => {
           className="relative z-10 px-4 md:px-12 lg:px-24 pt-24 pb-12 md:pt-32 scroll-mt-24"
         >
           <div className="bg-[#E5E1D8]/40 rounded-[28px] p-6 md:p-12 shadow-sm backdrop-blur-sm">
-            <h2 className="text-3xl font-bold mb-12 pl-4 text-[#4C4C4C]">Our Premium Product Range</h2>
+            <h2 className="text-3xl font-bold mb-12 pl-4 text-[#FFFFF]">Our Premium Product Range</h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {productRange.map((product, index) => {
@@ -90,7 +90,7 @@ const LandingTwo: React.FC = () => {
         {/* --- WHY CHOOSE SECTION --- */}
         <section 
           id="why-us" 
-          className="relative z-10 px-4 md:px-12 lg:px-24 pt-20 pb-24 md:pt-32 md:pb-32 scroll-mt-24"
+          className="relative z-10 px-4 md:px-12 lg:px-24 pt-15 pb-24 md:pt-22 md:pb-22 scroll-mt-24"
         >
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-extrabold text-center mb-24 text-black">Why Choose WeNest Products</h2>

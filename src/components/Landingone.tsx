@@ -39,7 +39,7 @@ const LandingPage: React.FC = () => {
           />
           
           <div className="w-full lg:w-1/2 mb-12 lg:mb-32 space-y-6 md:space-y-8 z-10 text-center lg:text-left">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-[#2D312E]">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-[#2D312E]">
               Sustainable <br className="hidden sm:block" />
               Cotton Bags for <br className="hidden sm:block" />
               Brands that Care

@@ -23,7 +23,7 @@ const Aldmognpaegthree = () => {
         </div>
 
         <div className="relative z-10 mx-auto max-w-[1600px] px-6 md:px-12 lg:px-24">
-          <h2 className="text-2xl md:text-3xl font-bold text-center text-[#2D312E] mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-center text-[#FFFFF] mb-8 md:mb-12">
             Business Opportunities
           </h2>
 
@@ -34,7 +34,7 @@ const Aldmognpaegthree = () => {
                 <img 
                   src={N1} 
                   alt="Wenest Products" 
-                  className="w-full h-64 sm:h-80 md:h-[500px] lg:h-full object-cover" 
+                  className="w-full h-74 sm:h-80 md:h-[500px] lg:h-full object-cover" 
                 />
               </div>
             </div>
