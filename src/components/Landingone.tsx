@@ -16,7 +16,11 @@ const LandingPage: React.FC = () => {
 
       <main>
         {/* --- HERO SECTION --- */}
-        <section className="relative pt-32 md:pt-52 px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center lg:items-end justify-between overflow-hidden pb-0">
+        {/* id="home" for navigation. scroll-mt handles the fixed header offset */}
+        <section 
+          id="home" 
+          className="relative pt-32 md:pt-48 lg:pt-52 px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center lg:items-end justify-between overflow-hidden pb-12 md:pb-20 scroll-mt-20"
+        >
           
           {/* Background Image - Optimized for all devices */}
           <div className="absolute inset-0 z-0 pointer-events-none select-none">
@@ -78,7 +82,11 @@ const LandingPage: React.FC = () => {
         </section>
 
         {/* --- MISSION & VISION SECTION --- */}
-        <section className="relative py-16 md:py-24 px-6 bg-[#C7C0B3] md:px-12 lg:px-24 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center overflow-hidden">
+        {/* id="about" for navigation. Increased padding-top for better separation */}
+        <section 
+          id="about" 
+          className="relative py-20 md:py-32 px-6 bg-[#C7C0B3] md:px-12 lg:px-24 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center overflow-hidden scroll-mt-16"
+        >
           
           {/* Background Image for Mission Section */}
           <div className="absolute inset-0 z-0 pointer-events-none select-none">
@@ -134,6 +142,7 @@ const LandingPage: React.FC = () => {
           </div>
         </section>
 
+        {/* This component contains 'Products' and 'Why Us' sections */}
         <Landtwo />
       </main>
     </div>

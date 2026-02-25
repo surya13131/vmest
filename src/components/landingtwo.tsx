@@ -41,7 +41,6 @@ const LandingTwo: React.FC = () => {
     <div className="min-h-screen bg-[#CAC4B8] font-['Montserrat',_sans-serif] overflow-x-hidden">
       
       {/* --- UNIFIED BACKGROUND WRAPPER --- */}
-      {/* This wrapper holds one background for both top sections to remove the "line" */}
       <div className="relative w-full">
         {/* Unified Background Layer */}
         <div className="absolute inset-0 z-0 pointer-events-none">
@@ -53,8 +52,12 @@ const LandingTwo: React.FC = () => {
         </div>
 
         {/* --- PRODUCT RANGE SECTION --- */}
-        <section className="relative z-10 px-4 md:px-12 lg:px-24 py-20">
-          <div className="bg-[#E5E1D8]/40 rounded-[28px] p-6 md:p-12 shadow-sm mb-32 backdrop-blur-sm">
+        {/* scroll-mt-32 ensures the fixed header doesn't cover the title when clicking 'Products' */}
+        <section 
+          id="products" 
+          className="relative z-10 px-4 md:px-12 lg:px-24 pt-24 pb-12 md:pt-32 scroll-mt-24"
+        >
+          <div className="bg-[#E5E1D8]/40 rounded-[28px] p-6 md:p-12 shadow-sm backdrop-blur-sm">
             <h2 className="text-3xl font-bold mb-12 pl-4 text-[#4C4C4C]">Our Premium Product Range</h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -85,7 +88,10 @@ const LandingTwo: React.FC = () => {
         </section>
 
         {/* --- WHY CHOOSE SECTION --- */}
-        <section className="relative z-10 px-4 md:px-12 lg:px-24 py-20">
+        <section 
+          id="why-us" 
+          className="relative z-10 px-4 md:px-12 lg:px-24 pt-20 pb-24 md:pt-32 md:pb-32 scroll-mt-24"
+        >
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-extrabold text-center mb-24 text-black">Why Choose WeNest Products</h2>
             
@@ -114,8 +120,7 @@ const LandingTwo: React.FC = () => {
       </div>
 
       {/* --- LANDTHREE SECTION --- */}
-      {/* Kept separate to allow Landthree its own spacing/background logic */}
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden pt-12">
         <div className="absolute inset-0 z-0">
           <img 
             src={shows} 
