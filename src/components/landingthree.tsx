@@ -1,3 +1,4 @@
+import React from 'react';
 import i1 from '../assets/i1.png'; 
 import i2 from '../assets/i2.png';
 import i3 from '../assets/i3.png';
@@ -13,12 +14,12 @@ const Aldmognpaegthree = () => {
     <main className="w-full overflow-x-hidden">
       {/* SECTION 1: Business Opportunities */}
       <section className="relative py-16 md:py-24 lg:py-36 font-sans w-full overflow-hidden">
-        {/* Background Image Layer */}
-        <div className="absolute inset-0 z-0">
+        {/* IMPROVED: Responsive Background Shadow for Mobile & Desktop */}
+        <div className="absolute inset-0 z-0 pointer-events-none select-none">
           <img 
             src={shows} 
             alt="" 
-            className="w-full h-full object-cover md:object-center opacity-100" 
+            className="w-full h-full object-cover opacity-100" 
           />
         </div>
 
@@ -92,8 +93,9 @@ const Aldmognpaegthree = () => {
       </section>
 
       {/* SECTION 2: Quality Commitment */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 z-0">
+      <section className="relative overflow-hidden w-full">
+        {/* IMPROVED: Responsive Shadow for Quality Section */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
           <img 
             src={shows} 
             alt="" 
@@ -106,7 +108,7 @@ const Aldmognpaegthree = () => {
       </section>
 
       {/* SECTION 3: Footer */}
-      <footer className="relative w-full py-12 md:py-16 px-6 md:px-12 lg:px-16 overflow-hidden">
+      <footer className="relative w-full py-12 md:py-16 px-6 md:px-12 lg:px-16 overflow-hidden bg-transparent">
         <div className="relative z-10 max-w-[1800px] mx-auto">
           <div className="flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-8">
             
@@ -118,14 +120,12 @@ const Aldmognpaegthree = () => {
               </h4>
               
               <div className="flex flex-col sm:flex-row flex-wrap items-start gap-8 md:gap-12">
-                {/* Logo & Slogan Column */}
                 <div className="max-w-[200px]">
                   <p className="text-sm md:text-[15px] text-[#545955] leading-tight">
                     Quality assured in affordability, delivered across globe
                   </p>
                 </div>
 
-                {/* Address Column */}
                 <div>
                   <h5 className="text-base md:text-[17px] font-bold text-[#1A1A1A] mb-3">Address</h5>
                   <p className="text-sm md:text-[15px] text-[#545955] leading-relaxed">
@@ -135,7 +135,6 @@ const Aldmognpaegthree = () => {
                   </p>
                 </div>
 
-                {/* Contact Column */}
                 <div>
                   <h5 className="text-base md:text-[17px] font-bold text-[#1A1A1A] mb-3">Contact</h5>
                   <div className="text-sm md:text-[15px] text-[#545955] space-y-1">

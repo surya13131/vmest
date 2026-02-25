@@ -18,8 +18,8 @@ const LandingPage: React.FC = () => {
         {/* --- HERO SECTION --- */}
         <section className="relative pt-32 md:pt-52 px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center lg:items-end justify-between overflow-hidden pb-0">
           
-          {/* Background Image for Hero Section */}
-          <div className="absolute inset-0 z-0">
+          {/* Background Image - Optimized for all devices */}
+          <div className="absolute inset-0 z-0 pointer-events-none select-none">
             <img 
               src={shows} 
               alt="" 
@@ -81,17 +81,17 @@ const LandingPage: React.FC = () => {
         <section className="relative py-16 md:py-24 px-6 bg-[#C7C0B3] md:px-12 lg:px-24 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center overflow-hidden">
           
           {/* Background Image for Mission Section */}
-          <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 z-0 pointer-events-none select-none">
             <img 
               src={shows} 
               alt="" 
-              className="w-full h-full object-cover opacity-50 mix-blend-multiply" 
+              className="w-full h-full object-cover opacity-90 mix-blend-multiply" 
             />
           </div>
 
           {/* Overlapping Images Layout - Fully Responsive */}
           <div className="relative h-[400px] md:h-[550px] w-full max-w-[320px] md:max-w-[550px] mx-auto z-10">
-             {/* home3 (Stacked Bags) */}
+             {/* home3 (Stacked Bags - Bottom Layer) */}
              <div className="absolute top-12 left-0 md:top-20 md:left-4 w-[180px] h-[240px] md:w-[310px] md:h-[390px] rounded-2xl overflow-hidden border-4 md:border-[6px] border-white z-0 shadow-lg">
                 <img 
                   src={home3} 
@@ -100,7 +100,7 @@ const LandingPage: React.FC = () => {
                 />
              </div>
 
-             {/* home2 (Woman with Bag) */}
+             {/* home2 (Woman with Bag - Top Layer) */}
              <div className="absolute top-0 right-0 w-[180px] h-[240px] md:w-[310px] md:h-[390px] rounded-2xl border-4 md:border-[6px] border-white z-10 overflow-hidden shadow-xl">
                 <img 
                   src={home2} 
