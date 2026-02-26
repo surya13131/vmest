@@ -139,7 +139,7 @@ const Aldmognpaegthree = () => {
           <div id='contact'>
             <h5 className="text-[17px] font-bold text-[#1A1A1A] mb-4">Contact</h5>
             <div className="text-[14px] text-[#545955] space-y-2 flex flex-col font-medium">
-              <a href="tel:+919344461082" className="hover:text-[#5DBD09] transition-colors">+91 9344461082</a>
+              <a href="tel:+919344461082" className="hover:text-[#5DBD09] transition-colors">+91 9344661082</a>
               <a href="mailto:wenestproducts@gmail.com" className="break-all hover:text-[#5DBD09] transition-colors">wenestproducts@gmail.com</a>
               <a href="https://www.wenestproducts.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#5DBD09] transition-colors">www.wenestproducts.com</a>
             </div>
@@ -161,7 +161,7 @@ const Aldmognpaegthree = () => {
         <div className="w-full bg-[#D8D2C6] py-3 md:py-4">
           <div className="max-w-[1600px] mx-auto px-6 text-center">
             <p className="text-[12px] md:text-[14px] font-medium text-[#2D312E] opacity-70">
-              © 2025 wenestproducts All rights reserved.
+              © 2026 wenestproducts All rights reserved. Designed by Zhians Private Limited
             </p>
           </div>
         </div>
