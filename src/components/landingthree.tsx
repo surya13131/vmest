@@ -130,7 +130,7 @@ const Aldmognpaegthree = () => {
           <div>
             <h5 className="text-[17px] font-bold text-[#1A1A1A] mb-4">Address</h5>
             <p className="text-[14px] text-[#545955] leading-[1.6] font-medium">
-              234F Dharapuram street,<br />
+              234F Dharmapuram street,<br />
               Rajapalayam, Tamil Nadu -<br />
               626 117
             </p>
